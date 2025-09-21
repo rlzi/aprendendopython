@@ -1,10 +1,7 @@
-cidade = str(input("Em que cidade voce nasceu: ")).strip().upper()
-if cidade.startswith('SANTO',):
+cidade = str(input("Sua cidade tem santo?: ")).strip().upper()
+if cidade[:5] == "SANTO":
+    print("SUA CIDADE TEM SANTO")
+elif cidade[5::] == "SANTO":
     print("SUA CIDADE TEM SANTO")
 else:
-    print("SUA CIDADE NAO TEM SANTO")
-
-if cidade.endswith("SANTO"):
-    print("SUA CIDADE TEM SANTO NO NOME")
-else:
-    print("SUA CIDADE NAO TEM SANTO NO NOME")
+    print("SUA CIDADE NAO TEM SANTO ")
