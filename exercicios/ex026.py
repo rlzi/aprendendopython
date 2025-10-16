@@ -1,0 +1,8 @@
+frase = str(input("Digite uma Frase: ")).strip().upper()
+print("A letra A aparece", end=" ")
+print(frase.count("A"), end=" ")
+print("Vezes na frase")
+print("A primeira letra A apareceu na Posicao", end=" ")
+print(frase.find("A")+1)
+print("A ultima letra A apareceu na posicao", end=" ")
+print(frase.rfind("A")+1)
