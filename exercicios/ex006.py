@@ -1,8 +1,8 @@
 import math
-valor = int(input("Digite Um Valor: "))
+valor = int(input("\033[90mDigite Um Valor: \033[0m"))
 dobro = valor * 2
 triplo = valor * 3
 raiz = math.sqrt(valor)
-print(f"O Dobro de {valor} Sera {dobro}")
+print(f"\033[91mO Dobro de {valor} Sera {dobro}")
 print(f"O Triplo de {valor} Sera {triplo}")
-print(f"A Raiz Quadrada de {valor} sera {raiz:.2f}")
+print(f"A Raiz Quadrada de {valor} sera {raiz:.0f}\033[0m")
