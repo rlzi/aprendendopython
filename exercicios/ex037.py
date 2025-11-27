@@ -1,5 +1,5 @@
 from colorama import Fore, Back, Style
-print(Fore.GREEN +"--------------------------------------------")
+print(Fore.GREEN + Style.BRIGHT + "--------------------------------------------")
 print("    BEM VINDO AO CONVERSOR DE VALORES")
 print("--------------------------------------------")
 n = int(input("DIGITE UM NUMERO: "))
