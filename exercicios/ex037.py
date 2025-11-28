@@ -17,10 +17,10 @@ opcao = int(input(Fore.BLACK + "ESCOLHA A OPCAO PARA CONVERTER: "+ Fore.RESET)) 
 #opcoes
 
 if opcao == 1:
-    print(f"O NUMERO {n} CONVERTIDO PARA BINARIO SERA {bin(n)}")
+    print(f"O NUMERO {n} CONVERTIDO PARA BINARIO SERA {bin(n)[2:]}")
 elif opcao == 2:
-    print(f"O NUMERO {n} CONVERTIDO PARA OCTAL SERA {oct(n)}")
+    print(f"O NUMERO {n} CONVERTIDO PARA OCTAL SERA {oct(n)[2:]}")
 elif opcao == 3:
-    print(f"O NUMERO {n} CONVERTIDO PARA HEXADECIMAL SERA {hex(n)}")
+    print(f"O NUMERO {n} CONVERTIDO PARA HEXADECIMAL SERA {hex(n)[2:]}")
 else:
     print("OPCAO INVALIDA")
