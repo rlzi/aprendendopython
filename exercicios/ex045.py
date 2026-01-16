@@ -10,6 +10,8 @@ print("""Suas Opcoes:
             [1] PAPEL
             [2] TESOURA""")
 
+print("================================================")
+
 jogador = int(input("Digite Sua Escolha: "))
 
 computador = 0 
