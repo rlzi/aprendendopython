@@ -1,6 +1,5 @@
-from random import randint
-
-itens = ('pedra', 'papel', 'tesoura')
-computador = randint(0,2)
-
-print(f"o computador escolheu {itens[computador]}")
+for num in range(10, 0, -1):
+    from time import sleep # biblioteca para dar tempo em cada parametro
+    sleep(1)
+    print(num)
+print("FIM DO PROGRAMA :/")
