@@ -6,7 +6,7 @@ conexao = sqlite3.connect("/dados.db")
 # Aqui vou criar a ponte entre o python e meu db
 cursor = conexao.cursor()
 
-#criar a tabela para o db
+#criar a tabela para o banco de dados (db)
 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS usuarios (
