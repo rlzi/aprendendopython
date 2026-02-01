@@ -16,6 +16,7 @@ while True:
     else:
         if preco < menorpreco:
             menorpreco = preco
+            barato = preco
     somatotal += preco
     continuar = str(input("Quer Continuar? [S/N]: ")).strip().upper()[0]
     while continuar not in "SN":
