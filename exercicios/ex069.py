@@ -13,6 +13,9 @@ while True:
     print("-" * 40)
     if sexo in "M":
         homem +=1
+    while sexo not in "MF":
+        sexo = str(input("Sexo Apenas M para masculino, F para feminino: "))
+        
     else:
         if idade <20 and sexo in "F":
             mulher20 +=1
