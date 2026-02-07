@@ -5,4 +5,10 @@ times = ('bragantino', 'Palmeiras', 'Chapecoenses', 'Mirassol'
         , 'Santos', 'Remo', 'corinthians', 'Cruzeiro')
 
 for time in times:
-    print(time)
+        print('=' * 50)
+        print(time)
+print('=' * 50)
+print(f'Os 5 Primeiros sao {times[0:5]}')
+print('=-' * 50)
+print(f'Os 4 Ultimos times sao {times[-4:]}')
+print('=-' * 50)
